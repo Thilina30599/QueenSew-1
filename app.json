@@ -115,10 +115,6 @@
             "description": "https://api.xteam.xyz/register මගින් ලබා ගන්නා Api Key ඇතුලත් කරන්න.. නොමැති නම් අවශ්‍ය නැත... ඇතුලත් කිරීමෙන් text to image කෝඩ් 200කට ආසන්නව ඇති සියල්ලම ලිමිට් එකකින් තොරව භාවිතා කල හැක",
             "required": false
          },
-         "THUMBNAIL_FOR_VIDEO": {
-            "description": "බොට් අප්ලෝඩ් කරන වීඩියෝ වල තම්බ්නෙයිල් එක වෙනස් කිරීම සදහා අදාල රූපයෙහි base64 මගින් encoded කේතය ඇතුලත් කරන්න. කිලෝබයිට් 25ට අඩු පින්තූරක් භාවිත කරන්න.. නැති නම් ඩිප්ලෝයි කිරීමට නොහැක",
-            "required": false
-         },
           "ZZ_PASSWORD": {
             "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video https://youtu.be/AKU7YVXxMbM ",
             "required": true
