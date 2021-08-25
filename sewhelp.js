@@ -7,13 +7,13 @@ Whats bot - Ravindu Manoj
 */
 
 function successfullMessage(msg) {
-    return "🇱🇰 *SewQueen*:  ```" + msg + "```"
+    return "🇱🇰 𝓣𝓱𝓲𝓵𝓲𝓷𝓪™:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🥴 *SewQueen*:  ```" + msg + "```"
+    return "🥴 𝓣𝓱𝓲𝓵𝓲𝓷𝓪™:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "🐲 *SewQueen*:  ```" + msg + "```"
+    return "🐲 𝓣𝓱𝓲𝓵𝓲𝓷𝓪™:  ```" + msg + "```"
 }
 
 
