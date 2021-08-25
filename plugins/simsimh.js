@@ -25,7 +25,7 @@ if (Config.WORKTYPE == 'private') {
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
-	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '************************************************\n\n*🇱🇰 ' + Config.BOTNAME + '* 😈 ' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n************************************************' , MessageType.text,{quoted: message.data});
+	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '************************************************\n\n*🇱🇰 ' + Config.BOTNAME + '* 🤖 ' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n************************************************' , MessageType.text,{quoted: message.data});
 	} catch {
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 	}
@@ -39,7 +39,7 @@ else if (Config.WORKTYPE == 'public') {
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
-	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '************************************************\n\n*🇱🇰 ' + Config.BOTNAME + '* 😈 ' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n************************************************' , MessageType.text,{quoted: message.data});
+	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '************************************************\n\n*🇱🇰 ' + Config.BOTNAME + '* 🤖 ' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n************************************************' , MessageType.text,{quoted: message.data});
 	} catch {
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 	}
