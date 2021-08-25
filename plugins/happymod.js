@@ -26,7 +26,7 @@ QueenSew.newcmdaddtosew({pattern: 'happymod ?(.*)', fromMe: false, desc: Lang.HM
 		if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 
 		'*✨ ' + Lang.NAMEY +'* ```' + json.result[0].title + '```\n\n' + 
 		'*💠 ' + Lang.SIZE +'* ```' + json.result[0].size + '```\n\n\n' + 
-		'*👑 ' + Lang.DOWNLOAD +':* ```' + json.result[0].link + '```\n\n *Coded By t.me/RavinduManoj*', MessageType.text);
+		'*👑 ' + Lang.DOWNLOAD +':* ```' + json.result[0].link + '```\n\n *Coded By t.me/thilauna*', MessageType.text);
 	} catch {
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDMD, MessageType.text);
 	}
