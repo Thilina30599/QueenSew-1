@@ -344,6 +344,6 @@ await message.sendMessage(`${r_text[i]}`);
 
 QueenSew.newcmdaddtosew({pattern: 'spack', fromMe: false}, (async (message, match) => {
 
-    await message.sendMessage('*Codded by t.me/RavinduManoj*\n💻Usage: *. robo*\nℹ️Desc:Translate any word to Robo text.\n⌨️Ex: *.a robo*, *.e robo*, *2 robo* etc.\n\n💻Usage: *.cry*\nℹ️Desc:It sends crying emoji texs.\n\n💻Usage: *.run*\nℹ️Desc:It sends run emojis texts.\n\n💻Usage: *.slap <reply>*\nℹ️Desc: sew, beats whoever you replied messages.\n\n');
+    await message.sendMessage('*Codded by t.me/thilauna*\n💻Usage: *. robo*\nℹ️Desc:Translate any word to Robo text.\n⌨️Ex: *.a robo*, *.e robo*, *2 robo* etc.\n\n💻Usage: *.cry*\nℹ️Desc:It sends crying emoji texs.\n\n💻Usage: *.run*\nℹ️Desc:It sends run emojis texts.\n\n💻Usage: *.slap <reply>*\nℹ️Desc: sew, beats whoever you replied messages.\n\n');
 
 }));
