@@ -90,12 +90,12 @@ async function sewQueen () {
             const { infoen, infosi} = ann.data.announcements          
             if (infoen !== '' && config.LANG == 'EN') {
                 while (getGMTh == 09 && getGMTm == 00) { 
-                    return conn.sendMessage(conn.user.jid, '[ *👑Daily Announcements👑 By Ravindu Manoj* ]\n\n' + infoen.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ *👑Daily Announcements👑 By Thilina Methsahan* ]\n\n' + infoen.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infosi !== '' && config.LANG == 'SI') {
                 while (getGMTh == 09 && getGMTm == 00) { 
-                    return conn.sendMessage(conn.user.jid, '[  *👑Daily Announcements👑 By Ravindu Manoj*  ]\n\n' + infosi.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[  *👑Daily Announcements👑 By Thilina Methsahan*  ]\n\n' + infosi.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
         })
@@ -347,9 +347,9 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
         );
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = Raviya.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('👑 Sew Queen is' + afwhasena));
+        console.log(chalk.bgGreen('👑 🆃🅷🅸🅻🅸🅽🅰 𝒷𝑜𝓉 is' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
-        let EVA_ACTİON = Raviya.LANG == 'TR' || Raviya.LANG == 'AZ' ? ' ' : '*Sew Queen Working as a Chatbot! 👑*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fullsew off* _command to return to normal mode._\n\n*Thanks For Using Sew Queen💌*\n    *-SEW AI*'
+        let EVA_ACTİON = Raviya.LANG == 'TR' || Raviya.LANG == 'AZ' ? ' ' : '*🆃🅷🅸🅻🅸🅽🅰 𝒷𝑜𝓉 Working as a Chatbot! 👑*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fullsew off* _command to return to normal mode._\n\n*Thanks For Using Sew Queen💌*\n    *-SEW AI*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -365,7 +365,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                 if (Raviya.FULLSEW == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*Sew Queen Working as Public! 👑*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as Public. To change it, use* _.setvar WORK_TYPE:private_\n\n*Thanks for using Sew Bot💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🆃🅷🅸🅻🅸🅽🅰 𝒷𝑜𝓉 as Public! 👑*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as Public. To change it, use* _.setvar WORK_TYPE:private_\n\n*Thanks for using Sew Bot💌*', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([Raviya.BRANCH + '..origin/' + Raviya.BRANCH]);
@@ -393,7 +393,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                 if (Raviya.FULLSEW == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*Sew Queen  Working as Private! 👑*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using Sew Queen💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*🆃🅷🅸🅻🅸🅽🅰 𝒷𝑜𝓉  Working as Private! 👑*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using Sew Queen💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([Raviya.BRANCH + '..origin/' + Raviya.BRANCH]);
@@ -730,7 +730,7 @@ if {
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! [Sew Queen] 🙇🏻*' +
+                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! [🆃🅷🅸🅻🅸🅽🅰 𝒷𝑜𝓉] 🙇🏻*' +
                                         '\n_You can write to our support group for more help._'
                                         , MessageType.text
                                     );
