@@ -527,7 +527,7 @@ if (config.WORKTYPE == 'private') {
             mesaj += '*💠' + video.title + '* \n👑 ' + video.url + '\n\n'
         });
 
-        await message.client.sendMessage(message.jid,'   _*👑ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ👑*_\n\n' + mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'   _*👑ᴘᴏᴡᴇʀᴅ ʙʏ 𝓣𝓱𝓲𝓵𝓲𝓷𝓪™*_\n\n' + mesaj,MessageType.text);
         await reply.delete();
     }));
 
@@ -994,7 +994,7 @@ else if (config.WORKTYPE == 'public') {
             mesaj += '*💠' + video.title + '* \n👑 ' + video.url + '\n\n'
         });
 
-        await message.client.sendMessage(message.jid,'   _*👑ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ👑*_\n\n' + mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'   _*👑ᴘᴏᴡᴇʀᴅ ʙʏ 𝓣𝓱𝓲𝓵𝓲𝓷𝓪™*_\n\n' + mesaj,MessageType.text);
         await reply.delete();
     }));
 
@@ -1189,7 +1189,7 @@ else if (config.WORKTYPE == 'public') {
             mesaj += '*💠' + video.title + '* \n👑 ' + video.url + '\n\n'
         });
 
-        await message.client.sendMessage(message.jid,'   _*👑ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ👑*_\n\n' + mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'   _*👑ᴘᴏᴡᴇʀᴅ ʙʏ 𝓣𝓱𝓲𝓵𝓲𝓷𝓪™*_\n\n' + mesaj,MessageType.text);
         await reply.delete();
     }));
 
