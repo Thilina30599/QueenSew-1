@@ -6,7 +6,8 @@ you may not use this file except in compliance with the License.
 Whats bot - Ravindu Manoj
 */
 
-'sew';
+'𝓣𝓱𝓲𝓵𝓲𝓷𝓪™
+';
 
 class Base {
     constructor(client) {
